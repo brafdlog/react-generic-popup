@@ -6,6 +6,11 @@ module.exports = {
     // Output file name
     filename: 'reactGenericPopup.js'
   },
+  externals: {
+    // require("react") is external and available on the global var React
+    "react": "React",
+    "react-dom": "ReactDOM"
+  },
   module: {
     loaders: [
       {
