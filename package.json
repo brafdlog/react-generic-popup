@@ -1,0 +1,23 @@
+{
+  "name": "react-generic-popup",
+  "version": "0.0.1",
+  "description": "Generic popup component for React applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brafdlog/react-generic-popup.git"
+  },
+  "keywords": [
+    "react",
+    "popup"
+  ],
+  "author": "Jonathan Goldfarb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brafdlog/react-generic-popup/issues"
+  },
+  "homepage": "https://github.com/brafdlog/react-generic-popup#readme"
+}
