@@ -20,6 +20,13 @@ module.exports = {
         query: {
           compact: false
         }
+      },
+      {
+        test: /\.scss$/, 
+        loaders: ["style", "css", "postcss", "sass?sourceMap"]
+      },
+      {test: /\.css$/, 
+        loaders: ["style", "css", "postcss"]
       }
     ]
   },
