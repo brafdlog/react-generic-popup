@@ -1,8 +1,10 @@
 module.exports = {
+  entry: './src/index.js',
   output: {
     // Name of the variable on the window object (in case we target browser only)
     library: 'reactGenericPopup',
     libraryTarget: 'umd',
+    path: __dirname + '/lib',
     // Output file name
     filename: 'reactGenericPopup.js'
   },
@@ -22,10 +24,10 @@ module.exports = {
         }
       },
       {
-        test: /\.scss$/, 
+        test: /\.scss$/,
         loaders: ["style", "css", "postcss", "sass?sourceMap"]
       },
-      {test: /\.css$/, 
+      {test: /\.css$/,
         loaders: ["style", "css", "postcss"]
       }
     ]
