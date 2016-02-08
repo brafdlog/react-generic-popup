@@ -4,7 +4,9 @@
   "description": "Generic popup component for React applications",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib -s",
+    "build": "webpack",
+    "build-dev": "webpack -w",
+    "build-dev-server": "webpack-dev-server",
     "test": "npm run test"
   },
   "repository": {

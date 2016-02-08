@@ -1,3 +1,5 @@
+const PORT = 8181;
+
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -7,6 +9,13 @@ module.exports = {
     path: __dirname + '/lib',
     // Output file name
     filename: 'reactGenericPopup.js'
+  },
+  devServer: {
+    // hot: true,
+    watch: true,
+    port: PORT,
+    inline: true,
+    contentBase: 'public/'
   },
   externals: {
     // require("react") is external and available on the global var React
